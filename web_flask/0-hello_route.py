@@ -9,8 +9,8 @@ app = Flask(__name__)
 HOST = "0.0.0.0"
 PORT = 5000
 @app.route('/', strict_slashes=False)
-def norm_print():
-    print('Hello HBNB')
+def norm_return():
+    return 'Hello HBNB'
 
 
 if __name__ == "__main__":
